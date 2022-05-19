@@ -83,7 +83,7 @@ body {
 }
 
 .container__btn {
-  background-color: #FB7413;
+  background-color: #353B41;
   border-radius: 25px;
   border-style: none;
   color: #FEFEFE;
@@ -91,6 +91,11 @@ body {
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
+}
+
+.selected {
+  background-color: #FB7413;
+  color: #FEFEFE;
 }
 
 .attribution { font-size: 11px; text-align: center; }
