@@ -1,7 +1,11 @@
 const li = document.querySelectorAll('.container__list__item');
 const btn = document.querySelector('.container__btn');
+const thankDiv = document.querySelector('.wrapper__thank__container');
+const choosedNum = document.querySelector('.wrapper__thank__text__number');
+const wrapper = document.querySelector('.wrapper');
 
 let selectedOne;
+let rate;
 btn.disabled = true;
 
 li.forEach((x) => {
@@ -11,7 +15,12 @@ li.forEach((x) => {
     selectedOne.classList.add('selected');
     btn.classList.add('selected');
     btn.disabled = false;
+    rate = x.innerText;
   });
 });
 
-btn.addEventListener('click', () => console.log('clicked'));
+btn.addEventListener('click', () => {
+  thankDiv.style.display = 'block';
+  choosedNum.innerText = rate;
+  wrapper.style.display = 'none';
+});
