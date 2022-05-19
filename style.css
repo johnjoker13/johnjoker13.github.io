@@ -75,6 +75,7 @@ body {
 .container__list__item:hover {
   background-color: #FB7413;
   color: #FEFEFE;
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -87,6 +88,7 @@ body {
   border-radius: 25px;
   border-style: none;
   color: #FEFEFE;
+  cursor: pointer;
   padding: 10px;
   font-size: 1rem;
   font-weight: 700;
@@ -96,6 +98,7 @@ body {
 .selected {
   background-color: #FB7413;
   color: #FEFEFE;
+  transition: 0.5s;
 }
 
 .attribution { font-size: 11px; text-align: center; }
