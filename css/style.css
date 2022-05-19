@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 body {
-  background-color: hsl(216, 12%, 8%);
+  background-color: #121417;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper {
-  background-color: hsl(216, 26%, 15%);
+  background-color: #1C2430;
   border-radius: 25px;
   box-sizing: border-box; 
   display: flex;
@@ -37,7 +37,7 @@ body {
 
 .wrapper__thank {
   align-items: center;
-  background-color: hsl(216, 26%, 15%);
+  background-color: #1C2430;
   border-radius: 25px;
   box-sizing: border-box; 
   display: flex;
@@ -71,7 +71,7 @@ body {
 }
 
 .wrapper__thank__paragraph {
-  color: hsl(217, 12%, 63%);
+  color: #959EAC;
   text-align: center;
 }
 
@@ -84,13 +84,13 @@ body {
 }
 
 .container__header {
-  color: hsl(0, 0%, 100%);
+  color: #FEFEFE;
   font-weight: 700;
   font-size: 1.2rem;
 }
 
 .container__text {
-  color: hsl(217, 12%, 63%);
+  color: #959EAC;
   font-size: 11px;
   font-weight: 400;
   line-height: 1.5;
@@ -110,7 +110,7 @@ body {
   background-color: #353B41;
   border: 1px solid transparent;
   border-radius: 100%;
-  color: hsl(217, 12%, 63%);
+  color: #959EAC;
   flex: 1 1 auto;
   font-size: 1rem;
   font-weight: 400;
@@ -149,8 +149,8 @@ body {
   transition: 0.5s;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.footer { color: #FFF; font-size: 11px; text-align: center; }
+.footer a { color: hsl(228, 45%, 44%); }
 
 .fadeInDiv {
   animation: fadeIn 5s;
