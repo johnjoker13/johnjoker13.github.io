@@ -14,6 +14,7 @@ li.forEach((x) => {
     selectedOne = x;
     selectedOne.classList.add('selected');
     btn.classList.add('selected');
+    btn.className += ' actived';
     btn.disabled = false;
     rate = x.innerText;
   });
