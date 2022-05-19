@@ -29,7 +29,7 @@ body {
 }
 
 .container__figure__img {
-  background-color: hsl(210, 10%, 23%);
+  background-color: #353B41;
   border: 1px solid transparent;
   border-radius: 100%;
   margin-bottom: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .container__list__item {
-  background-color: hsl(210, 10%, 23%);
+  background-color: #353B41;
   border: 1px solid transparent;
   border-radius: 100%;
   color: hsl(217, 12%, 63%);
