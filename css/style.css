@@ -160,6 +160,10 @@ body {
   -ms-animation: fadeIn 5s;
 }
 
+.spin {
+  animation: spin 2s linear 2s;
+}
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -183,6 +187,21 @@ body {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes spin { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+  } 
 }
 
 
