@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/johnjoker13/johnjoker13.github.io)
-- Live Site URL: [Add live site URL here](https://johnjoker13.github.io/html/index.html)
+- Solution URL: [Github](https://github.com/johnjoker13/johnjoker13.github.io)
+- Live Site URL: [Live Site](https://johnjoker13.github.io/html/index.html)
 
 ## My process
 
