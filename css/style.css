@@ -120,7 +120,7 @@ body {
   height: 20rem;
   justify-content: center;
   position: absolute;
-  padding: 0.5rem;
+  padding: 0.7rem;
   width: 21.875rem;
 }
 
@@ -146,6 +146,8 @@ body {
 
 .wrapper__thank__paragraph {
   color: #959EAC;
+  font-size: 0.9rem;
+  line-height: 1.5;
   text-align: center;
 }
 
